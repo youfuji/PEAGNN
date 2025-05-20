@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  peagnn:
+    build: .
+    container_name: peagnn_gpu
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+    volumes:
+      - .:/workspace/PEAGNN
+    working_dir: /workspace/PEAGNN
+    tty: true
