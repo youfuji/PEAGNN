@@ -26,9 +26,9 @@ pandas==1.1.2
 Pillow==7.2.0
 plyfile==0.7.2
 pycurl==7.43.0
-pygobject==3.20.0
+# pygobject==3.20.0
 pyparsing==3.0.0a2
-python-apt==1.1.0b1+ubuntu0.16.4.9
+# python-apt==1.1.0b1+ubuntu0.16.4.9
 python-dateutil==2.8.1
 pytz==2020.1
 rdflib==5.0.0
@@ -47,6 +47,6 @@ torch-spline-conv==1.2.0
 torchfm==0.7.0
 torchvision==0.6.1
 tqdm==4.48.2
-unattended-upgrades==0.1
+# unattended-upgrades==0.1
 urllib3==1.13.1
 Werkzeug==1.0.1
