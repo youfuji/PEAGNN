@@ -23,3 +23,4 @@ __pycache__/
 *.coveragerc
 *.pytest_cache/
 experiments/checkpoint/weights/
+datasets/Yelp/yelp_dataset.tar
